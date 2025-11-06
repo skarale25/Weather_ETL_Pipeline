@@ -15,11 +15,3 @@ def extract_weather_data(api_key, location):
         return response.json()
     else:
         return {"error": "Unable to retrieve weather data"}
-    
-#     print(json.dumps(weather_data, indent=4))
-#     return weather_data
-
-# if __name__ == "__main__":
-#     API_KEY = 'a0586c27e517ec274f2fa43bc1ddcb0f'
-#     LOCATION = 'New York'
-#     weather_info = extract_weather_data(API_KEY, LOCATION)
